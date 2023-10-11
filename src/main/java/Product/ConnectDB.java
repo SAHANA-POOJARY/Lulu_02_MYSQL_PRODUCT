@@ -20,7 +20,7 @@ public class ConnectDB {
 	try {
 		 Class.forName("com.mysql.cj.jdbc.Driver");//drive support sets up
 
-         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/********",
+         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/*********",
             "root", "********");
 	}
 	catch(Exception E) {
